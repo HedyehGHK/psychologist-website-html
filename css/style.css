@@ -107,7 +107,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  opacity: 0.06;
+  opacity: 0.18;
   pointer-events: none;
   z-index: 1;
 }
@@ -301,7 +301,7 @@ body {
 
 .individual-card {
   background-image:
-    linear-gradient(rgba(255,255,255,0.82), rgba(255,255,255,0.94)),
+    linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.75)),
     url("../images/individual-therapy.jpg");
   background-size: cover;
   background-position: center;
@@ -309,7 +309,7 @@ body {
 
 .couples-card {
   background-image:
-    linear-gradient(rgba(255,255,255,0.82), rgba(255,255,255,0.94)),
+    linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.75)),
     url("../images/couples-counselling.jpg");
   background-size: cover;
   background-position: center;
@@ -317,7 +317,7 @@ body {
 
 .anxiety-card {
   background-image:
-    linear-gradient(rgba(255,255,255,0.82), rgba(255,255,255,0.94)),
+    linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.75)),
     url("../images/anxiety-stress.jpg");
   background-size: cover;
   background-position: center;
@@ -345,13 +345,13 @@ body {
   font-family: 'Cormorant Garamond', serif;
   font-size: 26px;
   font-weight: 400;
-  color: #2a3a2e;
+  color: #1f2e2a;
   margin-bottom: 12px;
 }
 
 .service-card p {
   font-size: 15px;
-  color: #5a6e5e;
+  color: #2f3e3a;
   line-height: 1.8;
   margin-bottom: 20px;
   font-weight: 300;
