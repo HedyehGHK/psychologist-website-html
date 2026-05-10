@@ -1,22 +1,21 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arash Ebrahimi</title>
 
-  <title>Evergreen Therapy</title>
-
-  <!-- Google Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Allura&family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
 
   <!-- Font Awesome Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
   <!-- CSS -->
   <link rel="stylesheet" href="css/style.css">
-
 </head>
 
 <body>
@@ -25,145 +24,187 @@
   <header class="site-header">
     <div class="container header-container">
 
-      <!-- Logo -->
-      <div class="logo">
-        <img src="images/logo.png" alt="Evergreen Therapy Logo">
-        <span>Evergreen Therapy</span>
-      </div>
+      <!-- Personal brand logo -->
+      <a href="index.html" class="brand-logo">
+        Arash Ebrahimi
+      </a>
 
-      <!-- Navigation Menu -->
+      <!-- Navigation menu -->
       <nav class="navbar">
-
-        <!-- Hamburger Button -->
         <div class="menu-toggle" id="menu-toggle">
           <span></span>
           <span></span>
           <span></span>
         </div>
 
-        <!-- Navigation Links -->
         <ul class="nav-list" id="nav-list">
-          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html" class="active-link">Home</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="services.html">Services</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="contact.html" class="nav-button">Contact</a></li>
         </ul>
-
       </nav>
 
     </div>
   </header>
 
+ <!-- ================= HERO SECTION ================= -->
+<!-- ================= HERO SECTION ================= -->
+<section class="hero-nature">
 
-  <!-- ================= HERO SECTION ================= -->
-  <section class="hero">
+  <!-- Hero overlay -->
+  <div class="hero-overlay"></div>
 
-    <div class="container hero-container">
+  <!-- Hero content -->
+  <div class="container hero-nature-content">
+    <span class="hero-small-title">Psychological Support</span>
 
-      <!-- Hero Text -->
-      <div class="hero-text">
+    <h1>
+      A calm space for healing,<br>
+      clarity, and growth.
+    </h1>
 
-        <h1>Find Balance, <em>Healing</em>, and Support</h1>
+    <p>
+      Compassionate support for individuals, couples, and families
+      in a safe and confidential space.
+    </p>
+  </div>
 
-        <p>
-          Professional psychological support for individuals, couples,
-          and families in a calm and safe environment.
-        </p>
-
-        <a href="contact.html" class="btn">Book an Appointment</a>
-
-      </div>
-
-      <!-- Hero Image -->
-      <div class="hero-image">
-        <img src="images/hero.jpg" alt="Therapy office">
-      </div>
-
-    </div>
-
-  </section>
-
+</section>
 
   <!-- ================= ABOUT SECTION ================= -->
-  <section class="about">
+  <!-- ================= HOME ABOUT SECTION ================= -->
+<section class="home-about">
 
-    <div class="container about-container">
+  <!-- Soft overlay to make text readable -->
+  <div class="home-about-overlay"></div>
 
-      <!-- Therapist Photo -->
-      <div class="about-image">
-        <img src="images/therapist.jpg" alt="Arash Ebrahimi">
+  <div class="container home-about-container">
+
+    <!-- Arash image card -->
+    <div class="home-about-image reveal-up">
+      <img src="images/therapist.jpg" alt="Arash Ebrahimi">
+    </div>
+
+    <!-- About text card -->
+    <div class="home-about-text reveal-up delay-1">
+      <span class="section-label">About Arash</span>
+
+      <h2>
+        Therapy that feels human,
+        calm, and supportive.
+      </h2>
+
+      <p>
+        Arash Ebrahimi supports clients through anxiety, stress, relationship
+        challenges, emotional overwhelm, and major life transitions.
+      </p>
+
+      <p>
+        His approach focuses on creating a respectful therapeutic space where
+        clients feel heard, understood, and supported.
+      </p>
+
+      <a href="about.html" class="text-link">Learn more about Arash</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= HEALING REMINDERS SECTION ================= -->
+<section class="healing-reminders">
+  <div class="container reminders-container">
+
+    <!-- Section heading -->
+    <div class="reminders-heading">
+      <span class="section-label">Gentle Reminders</span>
+
+      <h2>Small reminders for the healing journey.</h2>
+
+      <p>
+        A soft collection of calming thoughts to support reflection,
+        patience, and emotional growth.
+      </p>
+    </div>
+
+    <!-- Quote collage -->
+    <div class="quote-collage">
+
+      <!-- Quote card 1 -->
+      <div class="quote-card quote-card-one">
+        <span class="paper-tape"></span>
+        <img src="images/quote-1.jpg" alt="Be patient with who you're becoming">
       </div>
 
-      <!-- Therapist Description -->
-      <div class="about-text">
+      <!-- Quote card 2 -->
+      <div class="quote-card quote-card-two">
+        <span class="paper-tape"></span>
+        <img src="images/quote-2.jpg" alt="Breathe in calm, grow in your own time">
+      </div>
 
-        <h2>About Arash Ebrahimi</h2>
+      <!-- Quote card 3 -->
+      <div class="quote-card quote-card-three">
+        <span class="paper-tape"></span>
+        <img src="images/quote-3.jpg" alt="Peace is found in little things">
+      </div>
 
-        <p>
-          Arash Ebrahimi is dedicated to helping individuals and families
-          navigate emotional challenges and improve their psychological
-          well-being. His work emphasizes creating a calm, respectful,
-          and supportive therapeutic environment.
-        </p>
-
-        <p>
-          With experience supporting clients dealing with anxiety, stress,
-          relationship challenges, and major life transitions, Arash combines
-          evidence-based therapy methods with compassionate listening to help
-          people move toward healthier and more fulfilling lives.
-        </p>
-
-        <a href="about.html" class="btn">Learn More</a>
-
+      <!-- Small floating quote -->
+      <div class="quote-small">
+        <img src="images/quote-small.jpg" alt="Choose happy">
       </div>
 
     </div>
 
-  </section>
-
+  </div>
+</section>
 
   <!-- ================= SERVICES SECTION ================= -->
   <section class="services">
-
     <div class="container">
 
-      <!-- Section Heading -->
       <div class="section-heading">
-        <h2>Services</h2>
+        <span class="section-label">Services</span>
+        <h2>Support for different stages of life</h2>
         <p>
-          Support designed to help you build clarity, resilience, and emotional well-being.
+          Therapy services designed to help clients build emotional balance,
+          self-awareness, and healthier relationships.
         </p>
       </div>
 
-      <!-- Services Cards -->
       <div class="services-container">
 
-        <!-- Service Card 1 -->
-        <div class="service-card individual-card">
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fa-solid fa-user"></i>
+          </div>
           <h3>Individual Therapy</h3>
           <p>
-            One-on-one sessions focused on anxiety, stress, emotional balance,
-            self-awareness, and personal growth.
+            One-on-one support for anxiety, stress, self-awareness, emotional
+            balance, and personal growth.
           </p>
           <a href="services.html">Learn More</a>
         </div>
 
-        <!-- Service Card 2 -->
-        <div class="service-card couples-card">
+        <div class="service-card featured-card">
+          <div class="service-icon">
+            <i class="fa-solid fa-heart"></i>
+          </div>
           <h3>Couples Counselling</h3>
           <p>
-            Guided support for communication challenges, relationship conflict,
-            trust rebuilding, and emotional connection.
+            Support for communication, emotional connection, relationship stress,
+            and rebuilding trust.
           </p>
           <a href="services.html">Learn More</a>
         </div>
 
-        <!-- Service Card 3 -->
-        <div class="service-card anxiety-card">
-          <h3>Anxiety & Stress Support</h3>
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fa-solid fa-spa"></i>
+          </div>
+          <h3>Anxiety & Stress</h3>
           <p>
-            Practical strategies and therapeutic support to help manage worry,
-            overwhelm, tension, and everyday emotional pressure.
+            Practical and compassionate support for worry, tension, overwhelm,
+            and emotional pressure.
           </p>
           <a href="services.html">Learn More</a>
         </div>
@@ -171,34 +212,34 @@
       </div>
 
     </div>
-
   </section>
-  <!-- ================= END SERVICES SECTION ================= -->
 
+  <!-- ================= CTA SECTION ================= -->
+  <section class="home-cta">
+    <div class="container cta-box">
+      <h2>Taking the first step can feel difficult. You do not have to do it alone.</h2>
+      <a href="contact.html" class="btn light-btn">Start a Conversation</a>
+    </div>
+  </section>
 
   <!-- ================= FOOTER ================= -->
   <footer class="footer">
-
     <div class="container footer-container">
 
-      <!-- Clinic Info -->
       <div class="footer-col">
-        <h3>Evergreen Therapy</h3>
+        <h3>Arash Ebrahimi</h3>
         <p>
-          Professional psychological support for individuals, couples,
-          and families in a safe and supportive environment.
+          Professional psychological support for individuals, couples, and families.
         </p>
       </div>
 
-      <!-- Contact Info -->
       <div class="footer-col">
         <h4>Contact</h4>
-        <p>Aurora, ON,  Canada</p>
-        <p>Email: info@evergreentherapy.com</p>
+        <p>Aurora, ON, Canada</p>
+        <p>Email: info@example.com</p>
         <p>Phone: +1 647 303 9454</p>
       </div>
 
-      <!-- Quick Links -->
       <div class="footer-col">
         <h4>Quick Links</h4>
         <ul>
@@ -209,39 +250,22 @@
         </ul>
       </div>
 
-      <!-- Social Media -->
       <div class="footer-col">
         <h4>Follow</h4>
-
         <div class="social-icons">
-
-          <a href="#">
-            <i class="fa-brands fa-instagram"></i>
-          </a>
-
-          <a href="#">
-            <i class="fa-brands fa-linkedin"></i>
-          </a>
-
-          <a href="#">
-            <i class="fa-brands fa-youtube"></i>
-          </a>
-
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
         </div>
-
       </div>
 
     </div>
 
     <div class="footer-bottom">
-      <p>© 2026 Evergreen Therapy. All rights reserved.</p>
+      <p>© 2026 Arash Ebrahimi. All rights reserved.</p>
     </div>
-
   </footer>
-  <!-- ================= END FOOTER ================= -->
 
   <script src="js/script.js"></script>
-
 </body>
-
 </html>
