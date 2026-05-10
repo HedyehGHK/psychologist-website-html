@@ -916,4 +916,51 @@ img {
   .home-about-text {
     padding: 30px 24px;
   }
+
+    /* Mobile fix for healing reminders collage */
+  .healing-reminders {
+    padding: 80px 0;
+  }
+
+  .reminders-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 35px;
+  }
+
+  .reminders-heading {
+    max-width: 100%;
+    text-align: left;
+  }
+
+  .reminders-heading h2 {
+    font-size: 42px;
+    line-height: 1.08;
+  }
+
+  .quote-collage {
+    min-height: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  .quote-card,
+  .quote-small {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    right: auto !important;
+    bottom: auto !important;
+    width: 86% !important;
+    max-width: 330px;
+    margin: 0 auto;
+    transform: rotate(0deg) !important;
+    z-index: 1;
+  }
+
+  .quote-small {
+    width: 72% !important;
+    max-width: 280px;
+  }
 }
